@@ -1,0 +1,42 @@
+export const Chartdata = [
+  {
+    id: 1,
+    year: 2016,
+    ReactJS: 10,
+    DotNET: 10,
+    Python: 10,
+    QA: 10,
+  },
+  {
+    id: 2,
+    year: 2017,
+    ReactJS: 11,
+    DotNET: 15,
+    Python: 12,
+    QA: 13,
+  },
+  {
+    id: 3,
+    year: 2018,
+    ReactJS: 11,
+    DotNET: 15,
+    Python: 12,
+    QA: 16,
+  },
+  {
+    id: 4,
+    year: 2019,
+    ReactJS: 14,
+    DotNET: 20,
+    Python: 15,
+    QA: 22,
+  },
+  {
+    id: 5,
+    year: 2020,
+    ReactJS: 15,
+    DotNET: 20,
+    Python: 25,
+    QA: 22,
+  },
+];
