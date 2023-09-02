@@ -1,11 +1,11 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { ApplicantApi } from "../api/ApplicantApi";
+import { CandidateApi } from "../api/ApplicantApi";
 import { blackListUserData } from "../api/ApplicantApi";
 export const CandidateSlice = createSlice({
   name: "CandidateSlice",
   initialState: {
     blackListReason: null,
-    acceptedUser: ApplicantApi,
+    acceptedUser: CandidateApi,
     selectedUser: null,
     selectedUserFromDropdown: [],
     blackListed: blackListUserData,

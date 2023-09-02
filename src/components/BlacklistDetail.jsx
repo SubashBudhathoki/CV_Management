@@ -5,7 +5,6 @@ import {
   BsThreeDotsVertical,
   BsTwitter,
 } from "react-icons/bs";
-import { Skill } from "./utils/Skill";
 import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
 

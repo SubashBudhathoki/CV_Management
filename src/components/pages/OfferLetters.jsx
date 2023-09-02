@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Template } from "../OfferLetterTemplate/Template";
 import { useLocation, useNavigate } from "react-router-dom";
-import { ApplicantApi } from "../../features/api/ApplicantApi";
+import { ApplicantApi, CandidateApi } from "../../features/api/ApplicantApi";
 import { setTableData } from "../../features/Template/TemplateSlice";
 import { BsFillEnvelopeCheckFill } from "react-icons/bs";
 
@@ -73,7 +73,7 @@ const OfferLetters = () => {
             >
               <option value="HiredUser">Candidate</option>
 
-              {ApplicantApi.map((user, index) => (
+              {CandidateApi.map((user, index) => (
                 <option key={index} value={user.fname + user.lname}>
                   {user.fname}
                   {user.lname}
